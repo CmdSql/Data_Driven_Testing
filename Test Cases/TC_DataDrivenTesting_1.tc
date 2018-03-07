@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DataDrivenTesting_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7caa2f1-9619-4efb-8c6f-6de1a3813880</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>e2be197b-4f33-41aa-b7e6-1ca8ca541433</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>caeab37d-bba8-4831-9f76-4535efdb1c75</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_DataDrivenTesting_1" time="92" tests="1" failures="2" errors="0">
+   <testsuite name="TS_DataDrivenTesting_1" tests="1" failures="2" errors="0" time="92" timestamp="2018-03-07 11:04:10" hostname="MCDinh - SQL198.SQLP.local" id="Test Suites/TS_DataDrivenTesting_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mcdinh\\git\\Data_Driven_Testing\\Reports\\TS_DataDrivenTesting_1\\20180307_110404"/>
+         <property name="logFiles" value="C:\\Users\\mcdinh\\git\\Data_Driven_Testing\\Reports\\TS_DataDrivenTesting_1\\20180307_110404\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\mcdinh\\git\\Data_Driven_Testing\\Reports\\TS_DataDrivenTesting_1\\20180307_110404\\1520417100738.png, C:\\Users\\mcdinh\\git\\Data_Driven_Testing\\Reports\\TS_DataDrivenTesting_1\\20180307_110404\\1520417141668.png"/>
+         <property name="hostName" value="MCDinh - SQL198.SQLP.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 52.0"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="36eac0dc-34e3-4337-8973-8c4e8d060755"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_DataDrivenTesting_1" classname="Test Cases/TC_DataDrivenTesting_1" status="PASSED">
+         <system-out><![CDATA[2018-03-07 11:04:10 - [TEST_CASE][PASSED] - Test Cases/TC_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1
+
+2018-03-07 11:04:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-07 11:04:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-07 11:04:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-03-07 11:04:18 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-03-07 11:04:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-03-07 11:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-03-07 11:04:19 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_username'
+
+2018-03-07 11:04:19 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_username'
+
+2018-03-07 11:04:19 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_password'
+
+2018-03-07 11:04:19 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_password'
+
+2018-03-07 11:04:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-03-07 11:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-03-07 11:04:20 - [TEST_STEP][PASSED] - setText: Text '08/03/2018' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date'
+
+2018-03-07 11:04:20 - [MESSAGE][PASSED] - Text '08/03/2018' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date'
+
+2018-03-07 11:04:20 - [TEST_STEP][PASSED] - setText: Text 'Data driven test' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/textarea_comment'
+
+2018-03-07 11:04:20 - [MESSAGE][PASSED] - Text 'Data driven test' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/textarea_comment'
+
+2018-03-07 11:04:20 - [TEST_STEP][PASSED] - setText: Text 'Data driven testing 1' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/textarea_comment'
+
+2018-03-07 11:04:20 - [MESSAGE][PASSED] - Text 'Data driven testing 1' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/textarea_comment'
+
+2018-03-07 11:04:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-03-07 11:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2018-03-07 11:04:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-07 11:04:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_DataDrivenTesting_1" classname="Test Cases/TC_DataDrivenTesting_1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)"/>
+         <system-out><![CDATA[2018-03-07 11:04:21 - [TEST_CASE][FAILED] - Test Cases/TC_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1 FAILED because (of) Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)
+
+2018-03-07 11:04:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-07 11:04:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-07 11:04:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-03-07 11:04:28 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-03-07 11:04:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-03-07 11:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-03-07 11:04:28 - [TEST_STEP][PASSED] - setText: Text 'Usn123' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_username'
+
+2018-03-07 11:04:28 - [MESSAGE][PASSED] - Text 'Usn123' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_username'
+
+2018-03-07 11:04:28 - [TEST_STEP][PASSED] - setText: Text 'Pwd123' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_password'
+
+2018-03-07 11:04:28 - [MESSAGE][PASSED] - Text 'Pwd123' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_password'
+
+2018-03-07 11:04:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-03-07 11:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-03-07 11:04:29 - [TEST_STEP][FAILED] - setText: Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)
+
+2018-03-07 11:05:01 - [MESSAGE][FAILED] - Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)
+[[ATTACHMENT|C:\\Users\\mcdinh\\git\\Data_Driven_Testing\\Reports\\TS_DataDrivenTesting_1\\20180307_110404\\1520417100738.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-07 11:04:21 - [TEST_CASE][FAILED] - Test Cases/TC_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1 FAILED because (of) Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_DataDrivenTesting_1" classname="Test Cases/TC_DataDrivenTesting_1" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)"/>
+         <system-out><![CDATA[2018-03-07 11:05:01 - [TEST_CASE][FAILED] - Test Cases/TC_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1 FAILED because (of) Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)
+
+2018-03-07 11:05:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-07 11:05:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-07 11:05:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-07 11:05:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-03-07 11:05:08 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-03-07 11:05:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-03-07 11:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-03-07 11:05:09 - [TEST_STEP][PASSED] - setText: Text 'Tester' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_username'
+
+2018-03-07 11:05:09 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_username'
+
+2018-03-07 11:05:09 - [TEST_STEP][PASSED] - setText: Text 'test123' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_password'
+
+2018-03-07 11:05:09 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_password'
+
+2018-03-07 11:05:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-03-07 11:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-03-07 11:05:10 - [TEST_STEP][FAILED] - setText: Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)
+
+2018-03-07 11:05:42 - [MESSAGE][FAILED] - Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)
+[[ATTACHMENT|C:\\Users\\mcdinh\\git\\Data_Driven_Testing\\Reports\\TS_DataDrivenTesting_1\\20180307_110404\\1520417141668.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-07 11:05:01 - [TEST_CASE][FAILED] - Test Cases/TC_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1 FAILED because (of) Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-07 11:04:10 - [TEST_SUITE][FAILED] - TS_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1 FAILED because (of) Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-07 11:04:10 - [TEST_SUITE][FAILED] - TS_DataDrivenTesting_1: Test Cases/TC_DataDrivenTesting_1 FAILED because (of) Unable to set text '08/03/2018' of object 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Data Driven Testing 1/Page_CURA Healthcare Service/input_visit_date' located by 'By.xpath: //input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
